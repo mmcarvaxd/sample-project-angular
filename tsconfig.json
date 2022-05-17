@@ -36,10 +36,28 @@
         "./src/app/presentations/shared/*"
       ],
       "@Configuration/*": [
-        "./src/app/configuration/*"
+        "./src/app/configurations/*"
       ],
       "@Env/*": [
         "./src/environments/*"
+      ],
+      "@Entities": [
+        "./src/app/domain/entities"
+      ],
+      "@UseCases": [
+        "./src/app/domain/usecases"
+      ],
+      "@Views": [
+        "./src/app/presentations/views"
+      ],
+      "@ViewsShared": [
+        "./src/app/presentations/shared"
+      ],
+      "@Configuration": [
+        "./src/app/configurations"
+      ],
+      "@Env": [
+        "./src/environments"
       ]
     },
     "resolveJsonModule": true

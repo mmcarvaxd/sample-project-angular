@@ -7,7 +7,8 @@ import { IEnvironment } from "./base/iEnvironment";
 export const environment: IEnvironment = {
   production: false,
   defaultLanguage: "pt-BR",
-  supportedLanguages: ["pt-BR", "en-US"]
+  supportedLanguages: ["pt-BR", "en-US"],
+  serverUrl: ""
 };
 
 /*
