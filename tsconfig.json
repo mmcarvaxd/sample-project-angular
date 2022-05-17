@@ -21,7 +21,21 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@Entities/*": [
+        "./src/app/domain/entities/*"
+      ],
+      "@UseCases/*": [
+        "./src/app/domain/usecases/*"
+      ],
+      "@Views/*": [
+        "./src/app/presentations/views/*"
+      ],
+      "@ViewsShared/*": [
+        "./src/app/presentations/shared/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
