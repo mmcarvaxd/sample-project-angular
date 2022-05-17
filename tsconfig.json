@@ -38,6 +38,9 @@
       "@Configuration/*": [
         "./src/app/configuration/*"
       ],
+      "@Env/*": [
+        "./src/environments/*"
+      ]
     },
     "resolveJsonModule": true
   },

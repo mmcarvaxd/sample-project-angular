@@ -3,7 +3,7 @@ import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, map, merge, switchMap } from 'rxjs';
-import { environment } from 'src/environments/environment';
+import { environment } from '@Env/environment';
 import { I18nService } from './configurations';
 
 // @UntilDestroy()
