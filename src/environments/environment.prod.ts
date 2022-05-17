@@ -1,3 +1,7 @@
-export const environment = {
-  production: true
+import { IEnvironment } from "./base/iEnvironment";
+
+export const environment: IEnvironment = {
+  production: true,
+  defaultLanguage: "",
+  supportedLanguages: []
 };

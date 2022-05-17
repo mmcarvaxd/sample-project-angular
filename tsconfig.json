@@ -34,8 +34,12 @@
       ],
       "@ViewsShared/*": [
         "./src/app/presentations/shared/*"
-      ]
-    }
+      ],
+      "@Configuration/*": [
+        "./src/app/configuration/*"
+      ],
+    },
+    "resolveJsonModule": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
