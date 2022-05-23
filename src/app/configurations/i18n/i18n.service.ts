@@ -54,6 +54,7 @@ export class I18nService {
     translateService.setTranslation('en-US', enUS)
     translateService.setTranslation('pt-BR', ptBR)
   }
+  
   /**
    * Initializes i18n for the application.
    * Loads language from local storage if present, or sets default language.

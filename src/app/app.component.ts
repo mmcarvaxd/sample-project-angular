@@ -42,7 +42,6 @@ export class AppComponent implements OnInit {
         }
       });
   }
-  title = 'sample-project-angular';
 
   constructor(private router: Router,
     private activatedRoute: ActivatedRoute,

@@ -1,7 +1,9 @@
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ApiPrefixInterceptor, ErrorHandlerInterceptor } from '@Configuration';
+import { ApiPrefixInterceptor, AuthModule, ErrorHandlerInterceptor } from '@Configuration';
+import { TranslateModule } from '@ngx-translate/core';
+import { OAuthModule } from 'angular-oauth2-oidc';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +14,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TranslateModule.forRoot(),
+    OAuthModule.forRoot(),
+    AuthModule
   ],
   providers: [
       {

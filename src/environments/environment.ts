@@ -6,9 +6,16 @@ import { IEnvironment } from "./base/iEnvironment";
 
 export const environment: IEnvironment = {
   production: false,
-  defaultLanguage: "pt-BR",
+  defaultLanguage: "en-US",
   supportedLanguages: ["pt-BR", "en-US"],
-  serverUrl: ""
+  serverUrl: "",
+  oAuth2Issuer: "",
+  oAuth2RedirectUri: "",
+  oAuth2ClientId: "",
+  oAuth2ResponseType: "",
+  oAuth2Scope: "",
+  oAuth2ShowDebugInformation: false,
+  oAuth2TokenEndpoint: ""
 };
 
 /*
